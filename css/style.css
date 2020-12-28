@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5,
       right: 0;
       bottom: 0;
       z-index: 0;
-      width: 100%;
+      width: auto;
       background: rgba(0, 0, 0, 0.7); }
   .bg-image > .container {
     position: relative;
@@ -638,7 +638,7 @@ h1, h2, h3, h4, h5,
   -ms-transform: translateY(-50%) translateX(30%);
   transform: translateY(-50%) translateX(30%); }
   .img-absolute img {
-    max-width: 100%; }
+    max-width: auto; }
   @media (max-width: 991.98px) {
     .img-absolute {
       position: relative;
