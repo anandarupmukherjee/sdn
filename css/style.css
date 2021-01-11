@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5,
   .bg-image.overlay {
     position: relative; }
     .bg-image.overlay:after {
-      position: relative;
+      position: absolute;
       content: "";
       top: 0;
       left: 0;
@@ -220,8 +220,7 @@ h1, h2, h3, h4, h5,
 
 @media (max-width: 991.98px) {
   .img-md-fluid {
-    max-width: 80%;
-	max-height: 80%;	} }
+    max-width: 80%; } }
 
 @media (max-width: 991.98px) {
   .display-1, .display-3 {
@@ -631,7 +630,7 @@ h1, h2, h3, h4, h5,
       font-size: 3rem; } }
 
 .img-absolute {
-  position: relative;
+  position: absolute;
   bottom: 0;
   right: 0;
   top: 60%;
